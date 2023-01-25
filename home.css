@@ -1,0 +1,68 @@
+/* CSS for Home page */
+body {
+    background-image: url("images/home-background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #363945;
+}
+/* Header containing site title */
+.header {
+    text-align: center;
+    color: white;
+    letter-spacing: 1px;
+}
+/* Site title */
+h1 {
+    color: #EFC050;
+}
+/* Container for website navigation menu */
+.site-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+/* Menu items */
+.site-menu a{
+    font-size: 20px;
+    font-family: teimer-web;
+    padding: 2em;
+    border: 1px #256452 dotted;
+}
+.site-menu a:hover{
+    background-color: rgba(48,129,105,0.2);
+    color: lightgray;
+}
+a {
+    color: #ba9bb8;
+    text-decoration: none;
+}
+.footer {
+    font-size: 10px;
+    color: white;
+}
+/* Link in footer to background image source  */
+.footer-attr {
+    position: absolute;
+    right: 2px;
+    bottom: 0px;
+}
+/* Link in footer to admin pages */
+.footer-admin {
+    position: absolute;
+    bottom: 0px;
+    padding: 1em;
+    border: 1px dotted #BA9BB8;
+}
+.footer-admin:hover {
+    background-color: rgba(48,129,105,0.2);
+    color: white;
+}
+/* Link to AwStats page */
+.admin1 {
+    left: 2px;
+}
+/* Link to phpMyAdmin page */
+.admin2 {
+    left: 85px;
+}
