@@ -1,0 +1,77 @@
+/* CSS for the Events page */
+body {
+    background-color: #363945;
+    background-image: url("images/events-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center -90px;
+    background-size: cover;
+}
+/* Header containing site title  */
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    letter-spacing: 1px;
+}
+/* Logo in header */
+.header img{
+    position: fixed;
+    top: 5px;
+    left: 5px;
+    width: 130px;
+    height: 130px;
+}
+/* Table displaying events information */
+table {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 3em;
+}
+/* Column titles in table */
+.table-header {
+    color: white !important;
+    letter-spacing: 1px;
+}
+/* Table rows */
+td {
+    padding: 0.8em;
+}
+/* Alternate colours of column rows */
+tr:nth-child(even) {
+   color: #EFC050;
+}
+tr:nth-child(odd){
+   color: #add8e6;
+}
+/* Site title  */
+h1 {
+    color: #EFC050;
+}
+/* Site subtitle  */
+h2 {
+    font-size: 18px;
+    color: #d3d3d3;
+    letter-spacing: 1px;
+    text-align: center;
+}
+a {
+    color: #ba9bb8;
+    text-decoration: none;
+}
+/* Site content */
+.content {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+/* Background image attribution */
+.footer {
+    font-size: 10px;
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    right: 2px;
+}
